@@ -1,0 +1,6 @@
+framework module Pods_PursuApp_PursuAppUITests {
+  umbrella header "Pods-PursuApp-PursuAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

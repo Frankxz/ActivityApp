@@ -29,68 +29,6 @@
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="p9g-An-iKH">
-                                        <rect key="frame" x="10" y="142" width="280" height="150"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="148" translatesAutoresizingMaskIntoConstraints="NO" id="uWC-WC-UVj">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="50"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EeL-Ev-nxm">
-                                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
-                                                        <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="EI2-qG-UUl"/>
-                                                            <constraint firstAttribute="height" constant="50" id="FIX-ja-65L"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EASY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyl-HJ-3l1">
-                                                        <rect key="frame" x="198" y="0.0" width="82" height="50"/>
-                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="160" translatesAutoresizingMaskIntoConstraints="NO" id="vzl-Ff-CT1">
-                                                <rect key="frame" x="0.0" y="50" width="280" height="50"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.2.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5Aj-OJ-Rnj">
-                                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
-                                                        <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="3sa-bb-2K4"/>
-                                                            <constraint firstAttribute="height" constant="50" id="cup-DF-baG"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NV-M0-glg">
-                                                        <rect key="frame" x="210" y="0.0" width="70" height="50"/>
-                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="148" translatesAutoresizingMaskIntoConstraints="NO" id="hql-ER-tV4">
-                                                <rect key="frame" x="0.0" y="100" width="280" height="50"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CC6-SY-ykh">
-                                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
-                                                        <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="FSt-b7-pWv"/>
-                                                            <constraint firstAttribute="width" constant="50" id="wnm-u1-C2F"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAH-NP-DUL">
-                                                        <rect key="frame" x="198" y="0.0" width="82" height="50"/>
-                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                    </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn JS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqB-f4-Lzd">
                                         <rect key="frame" x="20" y="20" width="260" height="56.5"/>
                                         <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="43"/>
@@ -104,19 +42,62 @@
                                             <constraint firstAttribute="height" constant="5" id="hNm-2O-pZT"/>
                                         </constraints>
                                     </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wly-gb-06X">
+                                        <rect key="frame" x="-15" y="127" width="200" height="50"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="lN5-W5-NbO">
+                                                <rect key="frame" x="20" y="0.0" width="160" height="50"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="SJl-BN-JbK">
+                                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
+                                                        <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="gV3-FB-Eow"/>
+                                                            <constraint firstAttribute="width" constant="50" id="jLP-54-UAl"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EASY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhb-lm-xmR">
+                                                        <rect key="frame" x="90" y="8.5" width="70" height="33"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="70" id="FBa-1g-F7E"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="lN5-W5-NbO" firstAttribute="centerY" secondItem="wly-gb-06X" secondAttribute="centerY" id="2gy-YK-Mep"/>
+                                            <constraint firstItem="lN5-W5-NbO" firstAttribute="centerX" secondItem="wly-gb-06X" secondAttribute="centerX" id="NJS-2I-CxL"/>
+                                            <constraint firstAttribute="width" constant="200" id="uOY-8J-GFT"/>
+                                            <constraint firstAttribute="height" constant="50" id="zD4-ym-9vC"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.15686274509803921" green="0.87450980392156863" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="2VR-zm-ev6" firstAttribute="top" secondItem="RqB-f4-Lzd" secondAttribute="bottom" constant="15.5" id="5rf-QV-FjK"/>
                                     <constraint firstItem="RqB-f4-Lzd" firstAttribute="top" secondItem="Iqa-Hh-Gr0" secondAttribute="top" constant="20" id="DdQ-E1-uCh"/>
                                     <constraint firstItem="2VR-zm-ev6" firstAttribute="leading" secondItem="Iqa-Hh-Gr0" secondAttribute="leading" id="JdU-eE-kau"/>
+                                    <constraint firstItem="wly-gb-06X" firstAttribute="leading" secondItem="Iqa-Hh-Gr0" secondAttribute="leading" constant="-15" id="Vnk-WS-pvL"/>
                                     <constraint firstAttribute="width" secondItem="Iqa-Hh-Gr0" secondAttribute="height" multiplier="3:4" id="Wnf-mI-job"/>
                                     <constraint firstAttribute="trailing" secondItem="RqB-f4-Lzd" secondAttribute="trailing" constant="20" id="WpL-Jb-Esa"/>
                                     <constraint firstItem="RqB-f4-Lzd" firstAttribute="leading" secondItem="Iqa-Hh-Gr0" secondAttribute="leading" constant="20" id="bth-G8-76P"/>
                                     <constraint firstAttribute="bottom" secondItem="FVb-nY-zdE" secondAttribute="bottom" constant="40" id="d5z-q4-YyK"/>
-                                    <constraint firstItem="p9g-An-iKH" firstAttribute="leading" secondItem="Iqa-Hh-Gr0" secondAttribute="leading" constant="10" id="gif-Z8-wvO"/>
-                                    <constraint firstAttribute="trailing" secondItem="p9g-An-iKH" secondAttribute="trailing" constant="10" id="m64-ST-D5C"/>
-                                    <constraint firstItem="FVb-nY-zdE" firstAttribute="top" secondItem="p9g-An-iKH" secondAttribute="bottom" constant="32.5" id="nfq-cQ-9BV"/>
+                                    <constraint firstItem="wly-gb-06X" firstAttribute="top" secondItem="2VR-zm-ev6" secondAttribute="bottom" constant="30" id="hnJ-Dt-tzF"/>
                                     <constraint firstAttribute="trailing" secondItem="2VR-zm-ev6" secondAttribute="trailing" id="oQR-8k-8Yv"/>
                                     <constraint firstAttribute="trailing" secondItem="FVb-nY-zdE" secondAttribute="trailing" id="ohB-1a-ZpX"/>
                                     <constraint firstItem="FVb-nY-zdE" firstAttribute="leading" secondItem="Iqa-Hh-Gr0" secondAttribute="leading" id="xM1-iB-bg9"/>
@@ -188,6 +169,77 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TQ6-x9-P6C"/>
                                 </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="p9g-An-iKH">
+                                <rect key="frame" x="86" y="650" width="160" height="150"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="uWC-WC-UVj">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="EeL-Ev-nxm">
+                                                <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
+                                                <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="EI2-qG-UUl"/>
+                                                    <constraint firstAttribute="height" constant="50" id="FIX-ja-65L"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EASY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyl-HJ-3l1">
+                                                <rect key="frame" x="90" y="0.0" width="70" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="70" id="6CZ-B4-vaf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="vzl-Ff-CT1">
+                                        <rect key="frame" x="0.0" y="50" width="160" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.2.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="5Aj-OJ-Rnj">
+                                                <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
+                                                <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="3sa-bb-2K4"/>
+                                                    <constraint firstAttribute="height" constant="50" id="cup-DF-baG"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NV-M0-glg">
+                                                <rect key="frame" x="90" y="0.0" width="70" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="70" id="Q71-bZ-oel"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="hql-ER-tV4">
+                                        <rect key="frame" x="0.0" y="100" width="160" height="50"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CC6-SY-ykh">
+                                                <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
+                                                <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="FSt-b7-pWv"/>
+                                                    <constraint firstAttribute="width" constant="50" id="wnm-u1-C2F"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAH-NP-DUL">
+                                                <rect key="frame" x="90" y="0.0" width="70" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="70" id="bQp-Ep-YQX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
