@@ -20,6 +20,7 @@
 		C6BF3E922758169D0051ADD0 /* PursuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E912758169D0051ADD0 /* PursuAppUITests.swift */; };
 		C6BF3E942758169D0051ADD0 /* PursuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E932758169D0051ADD0 /* PursuAppUITestsLaunchTests.swift */; };
 		C6BF3EA1275962580051ADD0 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3EA0275962580051ADD0 /* Activity.swift */; };
+		C6BF3EA3275BB9870051ADD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3EA2275BB9870051ADD0 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		C6BF3E912758169D0051ADD0 /* PursuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PursuAppUITests.swift; sourceTree = "<group>"; };
 		C6BF3E932758169D0051ADD0 /* PursuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PursuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C6BF3EA0275962580051ADD0 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		C6BF3EA2275BB9870051ADD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,6 @@
 				655D52526A29C309F6F73A2E /* Pods-PursuAppTests.debug.xcconfig */,
 				78E49C46958D2FB0198B01E1 /* Pods-PursuAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +146,7 @@
 				C6BF3E702758169C0051ADD0 /* AppDelegate.swift */,
 				C6BF3E722758169C0051ADD0 /* SceneDelegate.swift */,
 				C6BF3E742758169C0051ADD0 /* ViewController.swift */,
+				C6BF3EA2275BB9870051ADD0 /* ProfileViewController.swift */,
 				C6BF3EA0275962580051ADD0 /* Activity.swift */,
 				C6BF3E762758169C0051ADD0 /* Main.storyboard */,
 				C6BF3E792758169D0051ADD0 /* Assets.xcassets */,
@@ -412,6 +414,7 @@
 			files = (
 				C6BF3E752758169C0051ADD0 /* ViewController.swift in Sources */,
 				C6BF3E712758169C0051ADD0 /* AppDelegate.swift in Sources */,
+				C6BF3EA3275BB9870051ADD0 /* ProfileViewController.swift in Sources */,
 				C6BF3EA1275962580051ADD0 /* Activity.swift in Sources */,
 				C6BF3E732758169C0051ADD0 /* SceneDelegate.swift in Sources */,
 			);
