@@ -37,11 +37,23 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func dislikeAction(_ sender: UIButton) {
+        kolodaView.swipe(.left)
+    }
+    
+    @IBAction func likeAction(_ sender: UIButton) {
+        kolodaView.swipe(.right)
+    }
+    
+    @IBAction func reloadAction(_ sender: UIButton) {
+        kolodaView.resetCurrentCardIndex()
+    }
 }
 
 extension ViewController: KolodaViewDataSource {
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
         let container = containers[index]
+        container.view.backgroundColor = .random()
         return container.view
     }
     
@@ -62,3 +74,17 @@ extension ViewController: KolodaViewDelegate {
        }
 
 }
+
+
+
+extension UIColor {
+    static func random() -> UIColor {
+        return UIColor(
+            red: .random(in: 0...1),
+            green: .random(in: 0...1),
+            blue: .random(in: 0...1),
+            alpha: 1.0
+        )
+    }
+}
+

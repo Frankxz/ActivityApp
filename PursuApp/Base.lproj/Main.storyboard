@@ -18,8 +18,40 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iqa-Hh-Gr0" customClass="KolodaView" customModule="Koloda">
                                 <rect key="frame" x="57" y="97" width="300" height="400"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2uO-mw-d3L">
+                                        <rect key="frame" x="125" y="175" width="50" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKP-3e-izm">
+                                                <rect key="frame" x="-0.5" y="6" width="51.5" height="38"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
+                                                    <color key="baseForegroundColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="dislikeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Op0-KV-Au0"/>
+                                                    <action selector="reloadAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dcy-zH-OwY"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="mKP-3e-izm" firstAttribute="centerY" secondItem="2uO-mw-d3L" secondAttribute="centerY" id="5bN-sG-j2u"/>
+                                            <constraint firstAttribute="height" constant="50" id="DzA-jW-4Jb"/>
+                                            <constraint firstItem="mKP-3e-izm" firstAttribute="centerX" secondItem="2uO-mw-d3L" secondAttribute="centerX" id="OCk-ug-ghC"/>
+                                            <constraint firstAttribute="width" constant="50" id="x3J-hF-0wL"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="2uO-mw-d3L" firstAttribute="centerY" secondItem="Iqa-Hh-Gr0" secondAttribute="centerY" id="EZu-LZ-O9O"/>
+                                    <constraint firstItem="2uO-mw-d3L" firstAttribute="centerX" secondItem="Iqa-Hh-Gr0" secondAttribute="centerX" id="Nyb-8k-Rbc"/>
                                     <constraint firstAttribute="width" secondItem="Iqa-Hh-Gr0" secondAttribute="height" multiplier="3:4" id="Wnf-mI-job"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -41,6 +73,9 @@
                                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
                                                     <color key="baseForegroundColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="dislikeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKL-vZ-vcs"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -70,6 +105,9 @@
                                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="20"/>
                                                     <color key="baseForegroundColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="likeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tUC-bF-A45"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -119,116 +157,8 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsg-Pz-KpY">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
-                                <subviews>
-                                    <label userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3P-Jj-vms">
-                                        <rect key="frame" x="0.0" y="324.5" width="300" height="35.5"/>
-                                        <color key="backgroundColor" red="0.59999999999999998" green="0.95294117649999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="27"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn JS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyo-FA-VBg">
-                                        <rect key="frame" x="20" y="20" width="260" height="56.5"/>
-                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="43"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JNO-A3-IY2">
-                                        <rect key="frame" x="0.0" y="92" width="300" height="5"/>
-                                        <color key="backgroundColor" red="0.59999999999999998" green="0.95294117649999999" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="5" id="xj8-Cj-cMU"/>
-                                        </constraints>
-                                    </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Agn-VB-Lrg">
-                                        <rect key="frame" x="8" y="125" width="160" height="150"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Ig1-gg-jag">
-                                                <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ybg-8N-0sZ">
-                                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
-                                                        <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="Tqs-e2-8ec"/>
-                                                            <constraint firstAttribute="height" constant="50" id="irA-cl-FPm"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EASY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfF-yg-dMx">
-                                                        <rect key="frame" x="90" y="0.0" width="70" height="50"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="wd7-PQ-ufC"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="MaX-3Y-41s">
-                                                <rect key="frame" x="0.0" y="50" width="160" height="50"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.2.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jGA-q1-u67">
-                                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
-                                                        <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="50" id="dcN-hR-vKr"/>
-                                                            <constraint firstAttribute="width" constant="50" id="pXd-LM-M5x"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ra7-pC-9Uk">
-                                                        <rect key="frame" x="90" y="0.0" width="70" height="50"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="E50-bk-XEl"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="8vs-RT-UEC">
-                                                <rect key="frame" x="0.0" y="100" width="160" height="50"/>
-                                                <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aQm-1h-klH">
-                                                        <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
-                                                        <color key="tintColor" red="0.1843137255" green="0.1450980392" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="exs-Dl-t6E"/>
-                                                            <constraint firstAttribute="height" constant="50" id="lEt-Al-t4x"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvw-nY-eZI">
-                                                        <rect key="frame" x="90" y="0.0" width="70" height="50"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="3d7-wS-x1d"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="25"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.15686274510000001" green="0.87450980389999999" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="JNO-A3-IY2" secondAttribute="trailing" id="34K-Hq-3Wf"/>
-                                    <constraint firstItem="Agn-VB-Lrg" firstAttribute="top" secondItem="JNO-A3-IY2" secondAttribute="bottom" constant="28" id="Baq-CF-nxI"/>
-                                    <constraint firstItem="Fyo-FA-VBg" firstAttribute="leading" secondItem="bsg-Pz-KpY" secondAttribute="leading" constant="20" id="PQE-I7-yKe"/>
-                                    <constraint firstItem="JNO-A3-IY2" firstAttribute="leading" secondItem="bsg-Pz-KpY" secondAttribute="leading" id="ZBR-xx-TgX"/>
-                                    <constraint firstItem="Agn-VB-Lrg" firstAttribute="leading" secondItem="bsg-Pz-KpY" secondAttribute="leading" constant="8" id="aO9-3S-i0u"/>
-                                    <constraint firstAttribute="bottom" secondItem="f3P-Jj-vms" secondAttribute="bottom" constant="40" id="dA1-YL-iRe"/>
                                     <constraint firstAttribute="width" secondItem="bsg-Pz-KpY" secondAttribute="height" multiplier="3:4" id="kjH-qa-8i1"/>
-                                    <constraint firstItem="JNO-A3-IY2" firstAttribute="top" secondItem="Fyo-FA-VBg" secondAttribute="bottom" constant="15.5" id="lsr-55-MBH"/>
-                                    <constraint firstItem="f3P-Jj-vms" firstAttribute="leading" secondItem="bsg-Pz-KpY" secondAttribute="leading" id="ngV-hc-5cd"/>
-                                    <constraint firstAttribute="trailing" secondItem="Fyo-FA-VBg" secondAttribute="trailing" constant="20" id="q8a-Qe-Brm"/>
-                                    <constraint firstItem="Fyo-FA-VBg" firstAttribute="top" secondItem="bsg-Pz-KpY" secondAttribute="top" constant="20" id="sbA-5c-X0e"/>
-                                    <constraint firstAttribute="trailing" secondItem="f3P-Jj-vms" secondAttribute="trailing" id="ybT-5X-qI7"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -238,7 +168,6 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Eyi-68-N1V"/>
-                        <color key="backgroundColor" red="0.57222724069999997" green="0.96689504380000002" blue="0.60075610999999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="bsg-Pz-KpY" firstAttribute="top" secondItem="EYq-FZ-rdl" secondAttribute="top" id="106-CQ-wjq"/>
                             <constraint firstItem="bsg-Pz-KpY" firstAttribute="leading" secondItem="Eyi-68-N1V" secondAttribute="leading" id="GyH-LV-CIe"/>
@@ -259,10 +188,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="book.circle" catalog="system" width="128" height="121"/>
+        <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
         <image name="checkmark" catalog="system" width="128" height="114"/>
-        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
-        <image name="person.2.circle" catalog="system" width="128" height="121"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="secondarySystemBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

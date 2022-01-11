@@ -20,8 +20,6 @@
 		C6BF3E882758169D0051ADD0 /* PursuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E872758169D0051ADD0 /* PursuAppTests.swift */; };
 		C6BF3E922758169D0051ADD0 /* PursuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E912758169D0051ADD0 /* PursuAppUITests.swift */; };
 		C6BF3E942758169D0051ADD0 /* PursuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E932758169D0051ADD0 /* PursuAppUITestsLaunchTests.swift */; };
-		C6BF3EA1275962580051ADD0 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3EA0275962580051ADD0 /* Activity.swift */; };
-		C6BF3EA3275BB9870051ADD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3EA2275BB9870051ADD0 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +63,6 @@
 		C6BF3E8D2758169D0051ADD0 /* PursuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PursuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BF3E912758169D0051ADD0 /* PursuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PursuAppUITests.swift; sourceTree = "<group>"; };
 		C6BF3E932758169D0051ADD0 /* PursuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PursuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C6BF3EA0275962580051ADD0 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
-		C6BF3EA2275BB9870051ADD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +144,6 @@
 				C6BF3E702758169C0051ADD0 /* AppDelegate.swift */,
 				C6BF3E722758169C0051ADD0 /* SceneDelegate.swift */,
 				C6BF3E742758169C0051ADD0 /* ViewController.swift */,
-				C6BF3EA2275BB9870051ADD0 /* ProfileViewController.swift */,
-				C6BF3EA0275962580051ADD0 /* Activity.swift */,
 				C6BF3E762758169C0051ADD0 /* Main.storyboard */,
 				C608CB5D278DCED2001E91CE /* CardViewController.swift */,
 				C6BF3E792758169D0051ADD0 /* Assets.xcassets */,
@@ -418,8 +412,6 @@
 				C6BF3E752758169C0051ADD0 /* ViewController.swift in Sources */,
 				C6BF3E712758169C0051ADD0 /* AppDelegate.swift in Sources */,
 				C608CB5E278DCED2001E91CE /* CardViewController.swift in Sources */,
-				C6BF3EA3275BB9870051ADD0 /* ProfileViewController.swift in Sources */,
-				C6BF3EA1275962580051ADD0 /* Activity.swift in Sources */,
 				C6BF3E732758169C0051ADD0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
