@@ -12,6 +12,7 @@ class CardViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var participantsLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,8 @@ class CardViewController: UIViewController {
     func configure(activity: Activity){
         nameLabel.text = activity.activity
         typeLabel.text = activity.type
-        priceLabel.text = "\(String(describing: activity.price))"
+        priceLabel.text = String(activity.price!)
+        participantsLabel.text = String(activity.participants!)
     }
     func loadActivity(){
         guard let url = URL(string: "https://www.boredapi.com/api/activity/") else { return }

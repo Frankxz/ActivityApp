@@ -35,8 +35,8 @@ class ViewController: UIViewController {
     func loadContainerView(){
         for _ in 0...activityCount - 1{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "CardViewController") as! CardViewController
-
             self.addChild(vc)
+            
             containers.append(vc)
             
         }
@@ -53,6 +53,7 @@ class ViewController: UIViewController {
     
     @IBAction func reloadAction(_ sender: UIButton) {
         kolodaView.resetCurrentCardIndex()
+        kolodaView.reloadData()
     }
 }
 
