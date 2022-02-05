@@ -59,7 +59,7 @@ class ViewController: UIViewController {
 extension ViewController: KolodaViewDataSource {
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
         let container = containers[index]
-        container.view.backgroundColor = .random()
+      
         return container.view
     }
     
