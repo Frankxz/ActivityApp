@@ -47,14 +47,23 @@ class ViewController: UIViewController {
     }
     
     @IBAction func likeAction(_ sender: UIButton) {
-        guard let activity = containers[kolodaView.currentCardIndex].activity else { return }
-        StorageManager.shared.save(activity: activity)
         kolodaView.swipe(.right)
     }
     
     @IBAction func reloadAction(_ sender: UIButton) {
         kolodaView.resetCurrentCardIndex()
         kolodaView.reloadData()
+    }
+    
+    
+    func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection){
+        switch direction {
+        case .right, .topRight, .bottomRight:
+            guard let activity = containers[kolodaView.currentCardIndex - 1].activity else { return }
+            StorageManager.shared.save(activity: activity)
+        default:
+            break
+        }
     }
 }
 
