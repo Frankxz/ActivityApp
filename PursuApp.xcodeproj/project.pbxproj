@@ -12,6 +12,8 @@
 		C5886069DC4DB395D44772BD /* Pods_PursuApp_PursuAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289DEC2DDFD0365F7298FA65 /* Pods_PursuApp_PursuAppUITests.framework */; };
 		C608CB5E278DCED2001E91CE /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608CB5D278DCED2001E91CE /* CardViewController.swift */; };
 		C64DC62327AE769600BD67CD /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DC62227AE769600BD67CD /* Activity.swift */; };
+		C64DC62727AEC50300BD67CD /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DC62627AEC50300BD67CD /* ProfileTableViewController.swift */; };
+		C64DC62927AEC63800BD67CD /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DC62827AEC63800BD67CD /* StorageManager.swift */; };
 		C6BF3E712758169C0051ADD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E702758169C0051ADD0 /* AppDelegate.swift */; };
 		C6BF3E732758169C0051ADD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E722758169C0051ADD0 /* SceneDelegate.swift */; };
 		C6BF3E752758169C0051ADD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF3E742758169C0051ADD0 /* ViewController.swift */; };
@@ -52,6 +54,8 @@
 		94457500EF68771FABB7469D /* Pods-PursuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PursuApp.debug.xcconfig"; path = "Target Support Files/Pods-PursuApp/Pods-PursuApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C608CB5D278DCED2001E91CE /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		C64DC62227AE769600BD67CD /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		C64DC62627AEC50300BD67CD /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		C64DC62827AEC63800BD67CD /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		C6BF3E6D2758169C0051ADD0 /* PursuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PursuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BF3E702758169C0051ADD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6BF3E722758169C0051ADD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				C6BF3E722758169C0051ADD0 /* SceneDelegate.swift */,
 				C6BF3E742758169C0051ADD0 /* ViewController.swift */,
 				C6BF3E762758169C0051ADD0 /* Main.storyboard */,
+				C64DC62627AEC50300BD67CD /* ProfileTableViewController.swift */,
+				C64DC62827AEC63800BD67CD /* StorageManager.swift */,
 				C64DC62227AE769600BD67CD /* Activity.swift */,
 				C6BF3E7B2758169D0051ADD0 /* LaunchScreen.storyboard */,
 				C608CB5D278DCED2001E91CE /* CardViewController.swift */,
@@ -412,8 +418,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64DC62727AEC50300BD67CD /* ProfileTableViewController.swift in Sources */,
 				C64DC62327AE769600BD67CD /* Activity.swift in Sources */,
 				C6BF3E752758169C0051ADD0 /* ViewController.swift in Sources */,
+				C64DC62927AEC63800BD67CD /* StorageManager.swift in Sources */,
 				C6BF3E712758169C0051ADD0 /* AppDelegate.swift in Sources */,
 				C608CB5E278DCED2001E91CE /* CardViewController.swift in Sources */,
 				C6BF3E732758169C0051ADD0 /* SceneDelegate.swift in Sources */,

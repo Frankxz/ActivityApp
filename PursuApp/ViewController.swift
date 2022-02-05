@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var kolodaView: KolodaView!
     
     var activities:[Activity] = []
-    let activityCount = 5
+    let activityCount = 50
     var containers = [CardViewController]()
     
     override func viewDidLoad() {
@@ -38,7 +38,6 @@ class ViewController: UIViewController {
             self.addChild(vc)
             
             containers.append(vc)
-            
         }
     }
     
@@ -48,6 +47,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func likeAction(_ sender: UIButton) {
+        guard let activity = containers[kolodaView.currentCardIndex].activity else { return }
+        StorageManager.shared.save(activity: activity)
         kolodaView.swipe(.right)
     }
     

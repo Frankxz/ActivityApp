@@ -14,6 +14,8 @@ class CardViewController: UIViewController {
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var participantsLabel: UILabel!
     
+    var activity: Activity!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadActivity()
@@ -34,11 +36,10 @@ class CardViewController: UIViewController {
                 return
             }
             do {
-                var activity: Activity
-                activity = try
+                self.activity = try
                 JSONDecoder().decode(Activity.self, from: data)
                 DispatchQueue.main.async {
-                    self.configure(activity: activity)
+                    self.configure(activity: self.activity)
                 }
             } catch let error{
                 print(String(describing: error))
