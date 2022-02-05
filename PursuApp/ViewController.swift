@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var kolodaView: KolodaView!
     
+    var activities:[Activity] = []
     let activityCount = 5
     var containers = [CardViewController]()
     
@@ -20,6 +21,7 @@ class ViewController: UIViewController {
         loadContainerView()
         kolodaView.dataSource = self
         kolodaView.delegate = self
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -28,11 +30,15 @@ class ViewController: UIViewController {
         kolodaView.reloadData()
     }
     
+
+    
     func loadContainerView(){
         for _ in 0...activityCount - 1{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "CardViewController") as! CardViewController
+
             self.addChild(vc)
             containers.append(vc)
+            
         }
     }
     
@@ -70,9 +76,9 @@ extension ViewController: KolodaViewDataSource {
 
 extension ViewController: KolodaViewDelegate {
     func kolodaDidRunOutOfCards(_ koloda: KolodaView) {
-           koloda.reloadData()
-       }
-
+        koloda.reloadData()
+    }
+    
 }
 
 

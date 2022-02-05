@@ -157,8 +157,34 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bsg-Pz-KpY">
                                 <rect key="frame" x="0.0" y="0.0" width="300" height="400"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vec-eS-9IP">
+                                        <rect key="frame" x="130" y="189" width="41.5" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cj7-gF-akG">
+                                        <rect key="frame" x="64" y="307" width="50.5" height="27.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mf-hC-KjL">
+                                        <rect key="frame" x="20" y="52" width="260" height="20"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="6mf-hC-KjL" secondAttribute="trailing" constant="20" id="KMc-ZZ-Lvk"/>
+                                    <constraint firstItem="6mf-hC-KjL" firstAttribute="top" secondItem="bsg-Pz-KpY" secondAttribute="top" constant="52" id="U0r-Mz-qIF"/>
+                                    <constraint firstItem="6mf-hC-KjL" firstAttribute="centerX" secondItem="bsg-Pz-KpY" secondAttribute="centerX" id="hix-c0-2Ps"/>
                                     <constraint firstAttribute="width" secondItem="bsg-Pz-KpY" secondAttribute="height" multiplier="3:4" id="kjH-qa-8i1"/>
+                                    <constraint firstItem="6mf-hC-KjL" firstAttribute="leading" secondItem="bsg-Pz-KpY" secondAttribute="leading" constant="20" id="ntJ-yq-H25"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -181,10 +207,15 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                     <size key="freeformSize" width="300" height="400"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="6mf-hC-KjL" id="fXy-UZ-p6R"/>
+                        <outlet property="priceLabel" destination="cj7-gF-akG" id="Pwu-qN-E2n"/>
+                        <outlet property="typeLabel" destination="vec-eS-9IP" id="ccU-3k-DeE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ozS-mz-KvC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="609" y="-28"/>
+            <point key="canvasLocation" x="608.69565217391312" y="-28.125"/>
         </scene>
     </scenes>
     <resources>

@@ -2,27 +2,20 @@
 //  Activity.swift
 //  PursuApp
 //
-//  Created by Robert Miller on 03.12.2021.
+//  Created by Robert Miller on 05.02.2022.
 //
 
 import Foundation
 
-class Activity {
+struct Activity: Codable {
     
-    let activity: String
-    let accessibility: Int
-    let type: String
-    let participants: Int
-    let price: Int
-    let key: Int
+    let activity: String?
+    let type: String?
+    let participants: Int?
+    let price: Double?
+    let key: String?
+    let accessibility: Double?
     
-    init(activity: String, accessibility: Int, type: String, participants: Int, price: Int, key: Int) {
-        self.activity = activity
-        self.accessibility = accessibility
-        self.type = type
-        self.participants = participants
-        self.price = price
-        self.key = key
-    }
-    
+
 }
+
