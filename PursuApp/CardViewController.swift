@@ -22,7 +22,7 @@ class CardViewController: UIViewController {
     func configure(activity: Activity){
         nameLabel.text = activity.activity
         typeLabel.text = activity.type
-        priceLabel.text = String(activity.price!)
+        priceLabel.text = activity.price! == 0 ? "Free" : String(activity.price!)
         participantsLabel.text = String(activity.participants!)
     }
     func loadActivity(){
