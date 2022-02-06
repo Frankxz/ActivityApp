@@ -31,6 +31,9 @@ class ProfileTableViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         content.text = activities[indexPath.row].activity
         content.secondaryText = activities[indexPath.row].type
+        content.image = UIImage(systemName: "circle.fill")
+        
+        content.imageProperties.tintColor = .random()
         cell.contentConfiguration = content
         return cell
     }

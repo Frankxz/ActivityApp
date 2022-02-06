@@ -55,6 +55,9 @@ class ViewController: UIViewController {
         kolodaView.reloadData()
     }
     
+    func kolodaShouldApplyAppearAnimation(_ koloda: KolodaView) -> Bool {
+        false
+    }
     
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection){
         switch direction {
@@ -66,6 +69,8 @@ class ViewController: UIViewController {
         }
     }
 }
+
+
 
 extension ViewController: KolodaViewDataSource {
     func koloda(_ koloda: KolodaView, viewForCardAt index: Int) -> UIView {
