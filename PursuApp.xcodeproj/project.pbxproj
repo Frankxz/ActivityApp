@@ -122,6 +122,50 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C64DC62A27AFDF1E00BD67CD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF3E742758169C0051ADD0 /* ViewController.swift */,
+				C64DC62627AEC50300BD67CD /* ProfileTableViewController.swift */,
+				C608CB5D278DCED2001E91CE /* CardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C64DC62B27AFDF2F00BD67CD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF3E762758169C0051ADD0 /* Main.storyboard */,
+				C6BF3E7B2758169D0051ADD0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C64DC62C27AFDF3A00BD67CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C64DC62827AEC63800BD67CD /* StorageManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C64DC62D27AFDF4000BD67CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C64DC62227AE769600BD67CD /* Activity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C64DC62E27AFDF5700BD67CD /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF3E702758169C0051ADD0 /* AppDelegate.swift */,
+				C6BF3E722758169C0051ADD0 /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
 		C6BF3E642758169C0051ADD0 = {
 			isa = PBXGroup;
 			children = (
@@ -147,15 +191,11 @@
 		C6BF3E6F2758169C0051ADD0 /* PursuApp */ = {
 			isa = PBXGroup;
 			children = (
-				C6BF3E702758169C0051ADD0 /* AppDelegate.swift */,
-				C6BF3E722758169C0051ADD0 /* SceneDelegate.swift */,
-				C6BF3E742758169C0051ADD0 /* ViewController.swift */,
-				C6BF3E762758169C0051ADD0 /* Main.storyboard */,
-				C64DC62627AEC50300BD67CD /* ProfileTableViewController.swift */,
-				C64DC62827AEC63800BD67CD /* StorageManager.swift */,
-				C64DC62227AE769600BD67CD /* Activity.swift */,
-				C6BF3E7B2758169D0051ADD0 /* LaunchScreen.storyboard */,
-				C608CB5D278DCED2001E91CE /* CardViewController.swift */,
+				C64DC62E27AFDF5700BD67CD /* Supporting files */,
+				C64DC62A27AFDF1E00BD67CD /* ViewController */,
+				C64DC62B27AFDF2F00BD67CD /* Storyboard */,
+				C64DC62C27AFDF3A00BD67CD /* Service */,
+				C64DC62D27AFDF4000BD67CD /* Model */,
 				C6BF3E792758169D0051ADD0 /* Assets.xcassets */,
 				C6BF3E7E2758169D0051ADD0 /* Info.plist */,
 			);
