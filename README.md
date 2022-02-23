@@ -1,11 +1,20 @@
 
 # ColorCardApp 
 **Training app** \
-Simple app with tinder like cards with random color.
+Simple app with tinder like cards with random fetched from Bored API activities you can do. Also with saving your favorite activities in UserDefaults  \
 
-![App Screenshot](https://psv4.userapi.com/c536436/u210892849/docs/d18/a45cb56e17c0/ColorCards.gif?extra=W2qSH4jNWzSS0XDJTSt4nvMVYC7C0llcsy-sveyIYeWvf8zVVhhHfuTAxwZdsaE33YAFZR8ovBV0JqMLNyyl-dj6JRl3mXHasbbeyTZB0uvU-jz78L7joWeYjR8fWZkEZ33AhYWjNqO0LF4UTxdndT0G)
+Left swipe - no interested
+Right swipe - interested -> adding to your favorite activities list
+
+
+
+# Swipe animation
+<img src="https://media0.giphy.com/media/tVCIuqCWR2u174Byk5/giphy.gif?cid=790b7611cfd3943f9f8d88753a57d40738a48156b0f1976e&rid=giphy.gif&ct=g" width="500" height="300">
 
 
 **Practice with:** \
-Koloda 
+Koloda \
+UserDefaults \
+UrlSession \
+Bored API \
 
