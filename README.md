@@ -1,7 +1,7 @@
 
 # ColorCardApp 
 **Training app** \
-Simple app with tinder like cards with random fetched from Bored API activities you can do. Also with saving your favorite activities in UserDefaults  \
+Simple app with tinder like cards with random fetched from Bored API activities you can do. Also with saving your favorite activities in UserDefaults.
 
 Left swipe - no interested \
 Right swipe - interested -> adding to your favorite activities list
